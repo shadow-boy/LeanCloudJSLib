@@ -158,6 +158,7 @@
 				60B22B4322262977005BDECE /* AppDelegate.m */,
 				60B22B4522262977005BDECE /* ViewController.h */,
 				60B22B4622262977005BDECE /* ViewController.m */,
+				60B22B8B22262B20005BDECE /* LeanCloudJSLib-Bridging-Header.h */,
 				60B22B4822262977005BDECE /* Main.storyboard */,
 				60B22B4B22262979005BDECE /* Assets.xcassets */,
 				60B22B4D22262979005BDECE /* LaunchScreen.storyboard */,
@@ -195,7 +196,6 @@
 				60B22B7C222629EE005BDECE /* VisualViewController.h */,
 				60B22B7D222629EE005BDECE /* VisualViewController.m */,
 				60B22B8C22262B21005BDECE /* AppdelegateExtension.swift */,
-				60B22B8B22262B20005BDECE /* LeanCloudJSLib-Bridging-Header.h */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -549,7 +549,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudJSLib/Libs/LeanCloudJSLib-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudJSLib/LeanCloudJSLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,7 +573,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudJSLib/Libs/LeanCloudJSLib-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudJSLib/LeanCloudJSLib-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
