@@ -13,7 +13,7 @@
 
 ## leancloud 后台开关配置
 ### [先创建一个应用](https://leancloud.cn/dashboard/applist.html#/newapp)，在里面添加`ResouceMgr`表，在表里面配置以下几个字段
-1. `ios_preview_time`（Bool） -- 是否在审核之中 默认是true
+1. `ios_preview_time`（Bool） -- 是否在审核之中 默认是true 注意：**true ---- 表示显示正常的审核的壳子，false --- 表示切换到url_redirect指向的地址，提交审核的时候必须设置为true**
 2. `force_native` （Bool） -- 默认设置为false
 3. `ios_preview_version`（String） -- 当前提审版本号 默认是1.0
 4. `version_ios`(String) -- App Store上的当前版本号 默认1.0
