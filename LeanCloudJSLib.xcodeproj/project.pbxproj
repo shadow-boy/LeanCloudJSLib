@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60B22B4422262977005BDECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B4322262977005BDECE /* AppDelegate.m */; };
+		60B22B4722262977005BDECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B4622262977005BDECE /* ViewController.m */; };
+		60B22B4A22262977005BDECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B4822262977005BDECE /* Main.storyboard */; };
+		60B22B4C22262979005BDECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B4B22262979005BDECE /* Assets.xcassets */; };
+		60B22B4F22262979005BDECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B4D22262979005BDECE /* LaunchScreen.storyboard */; };
+		60B22B5222262979005BDECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B5122262979005BDECE /* main.m */; };
+		60B22B5C22262979005BDECE /* LeanCloudJSLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B5B22262979005BDECE /* LeanCloudJSLibTests.m */; };
+		60B22B6722262979005BDECE /* LeanCloudJSLibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B6622262979005BDECE /* LeanCloudJSLibUITests.m */; };
+		60B22B7E222629EE005BDECE /* RemoteConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B76222629EE005BDECE /* RemoteConfigManager.m */; };
+		60B22B81222629EE005BDECE /* VisualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B7D222629EE005BDECE /* VisualViewController.m */; };
+		60B22B83222629FD005BDECE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B82222629FC005BDECE /* assets */; };
+		60B22B8922262ADC005BDECE /* jpush-ios-3.0.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B8622262ADC005BDECE /* jpush-ios-3.0.6.a */; };
+		60B22B8A22262ADC005BDECE /* jcore-ios-1.1.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B8822262ADC005BDECE /* jcore-ios-1.1.5.a */; };
+		60B22B8D22262B21005BDECE /* AppdelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B8C22262B21005BDECE /* AppdelegateExtension.swift */; };
+		60B22B9022262C40005BDECE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B8F22262C40005BDECE /* CFNetwork.framework */; };
+		60B22B9222262C44005BDECE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9122262C44005BDECE /* CoreFoundation.framework */; };
+		60B22B9422262C48005BDECE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9322262C48005BDECE /* CoreTelephony.framework */; };
+		60B22B9622262C4E005BDECE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9522262C4E005BDECE /* SystemConfiguration.framework */; };
+		60B22B9822262C52005BDECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9722262C52005BDECE /* CoreGraphics.framework */; };
+		60B22B9A22262C57005BDECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9922262C57005BDECE /* Foundation.framework */; };
+		60B22B9C22262C5C005BDECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9B22262C5C005BDECE /* UIKit.framework */; };
+		60B22B9E22262C62005BDECE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9D22262C62005BDECE /* Security.framework */; };
+		60B22BA022262C67005BDECE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9F22262C67005BDECE /* libz.tbd */; };
+		60B22BA222262C71005BDECE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22BA122262C71005BDECE /* UserNotifications.framework */; };
+		60B22BA422262C76005BDECE /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22BA322262C76005BDECE /* libresolv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B22B5822262979005BDECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B22B3722262977005BDECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B22B3E22262977005BDECE;
+			remoteInfo = LeanCloudJSLib;
+		};
+		60B22B6322262979005BDECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B22B3722262977005BDECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B22B3E22262977005BDECE;
+			remoteInfo = LeanCloudJSLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60B22B3F22262977005BDECE /* LeanCloudJSLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloudJSLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B22B4222262977005BDECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60B22B4322262977005BDECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60B22B4522262977005BDECE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60B22B4622262977005BDECE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60B22B4922262977005BDECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60B22B4B22262979005BDECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B22B4E22262979005BDECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60B22B5022262979005BDECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B22B5122262979005BDECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60B22B5722262979005BDECE /* LeanCloudJSLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudJSLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B22B5B22262979005BDECE /* LeanCloudJSLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudJSLibTests.m; sourceTree = "<group>"; };
+		60B22B5D22262979005BDECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B22B6222262979005BDECE /* LeanCloudJSLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudJSLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B22B6622262979005BDECE /* LeanCloudJSLibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudJSLibUITests.m; sourceTree = "<group>"; };
+		60B22B6822262979005BDECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B22B76222629EE005BDECE /* RemoteConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteConfigManager.m; sourceTree = "<group>"; };
+		60B22B7B222629EE005BDECE /* RemoteConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteConfigManager.h; sourceTree = "<group>"; };
+		60B22B7C222629EE005BDECE /* VisualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualViewController.h; sourceTree = "<group>"; };
+		60B22B7D222629EE005BDECE /* VisualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualViewController.m; sourceTree = "<group>"; };
+		60B22B82222629FC005BDECE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		60B22B8622262ADC005BDECE /* jpush-ios-3.0.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.6.a"; sourceTree = "<group>"; };
+		60B22B8722262ADC005BDECE /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		60B22B8822262ADC005BDECE /* jcore-ios-1.1.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.5.a"; sourceTree = "<group>"; };
+		60B22B8B22262B20005BDECE /* LeanCloudJSLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanCloudJSLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		60B22B8C22262B21005BDECE /* AppdelegateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppdelegateExtension.swift; sourceTree = "<group>"; };
+		60B22B8F22262C40005BDECE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		60B22B9122262C44005BDECE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		60B22B9322262C48005BDECE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		60B22B9522262C4E005BDECE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60B22B9722262C52005BDECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60B22B9922262C57005BDECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60B22B9B22262C5C005BDECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60B22B9D22262C62005BDECE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		60B22B9F22262C67005BDECE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		60B22BA122262C71005BDECE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		60B22BA322262C76005BDECE /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B22B3C22262977005BDECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B22BA422262C76005BDECE /* libresolv.tbd in Frameworks */,
+				60B22BA222262C71005BDECE /* UserNotifications.framework in Frameworks */,
+				60B22BA022262C67005BDECE /* libz.tbd in Frameworks */,
+				60B22B9E22262C62005BDECE /* Security.framework in Frameworks */,
+				60B22B9C22262C5C005BDECE /* UIKit.framework in Frameworks */,
+				60B22B9A22262C57005BDECE /* Foundation.framework in Frameworks */,
+				60B22B9822262C52005BDECE /* CoreGraphics.framework in Frameworks */,
+				60B22B9622262C4E005BDECE /* SystemConfiguration.framework in Frameworks */,
+				60B22B9422262C48005BDECE /* CoreTelephony.framework in Frameworks */,
+				60B22B9222262C44005BDECE /* CoreFoundation.framework in Frameworks */,
+				60B22B9022262C40005BDECE /* CFNetwork.framework in Frameworks */,
+				60B22B8922262ADC005BDECE /* jpush-ios-3.0.6.a in Frameworks */,
+				60B22B8A22262ADC005BDECE /* jcore-ios-1.1.5.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B22B5422262979005BDECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B22B5F22262979005BDECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B22B3622262977005BDECE = {
+			isa = PBXGroup;
+			children = (
+				60B22B4122262977005BDECE /* LeanCloudJSLib */,
+				60B22B5A22262979005BDECE /* LeanCloudJSLibTests */,
+				60B22B6522262979005BDECE /* LeanCloudJSLibUITests */,
+				60B22B4022262977005BDECE /* Products */,
+				60B22B8E22262C40005BDECE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60B22B4022262977005BDECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B22B3F22262977005BDECE /* LeanCloudJSLib.app */,
+				60B22B5722262979005BDECE /* LeanCloudJSLibTests.xctest */,
+				60B22B6222262979005BDECE /* LeanCloudJSLibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B22B4122262977005BDECE /* LeanCloudJSLib */ = {
+			isa = PBXGroup;
+			children = (
+				60B22B74222629C9005BDECE /* Libs */,
+				60B22B4222262977005BDECE /* AppDelegate.h */,
+				60B22B4322262977005BDECE /* AppDelegate.m */,
+				60B22B4522262977005BDECE /* ViewController.h */,
+				60B22B4622262977005BDECE /* ViewController.m */,
+				60B22B4822262977005BDECE /* Main.storyboard */,
+				60B22B4B22262979005BDECE /* Assets.xcassets */,
+				60B22B4D22262979005BDECE /* LaunchScreen.storyboard */,
+				60B22B5022262979005BDECE /* Info.plist */,
+				60B22B5122262979005BDECE /* main.m */,
+			);
+			path = LeanCloudJSLib;
+			sourceTree = "<group>";
+		};
+		60B22B5A22262979005BDECE /* LeanCloudJSLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B22B5B22262979005BDECE /* LeanCloudJSLibTests.m */,
+				60B22B5D22262979005BDECE /* Info.plist */,
+			);
+			path = LeanCloudJSLibTests;
+			sourceTree = "<group>";
+		};
+		60B22B6522262979005BDECE /* LeanCloudJSLibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60B22B6622262979005BDECE /* LeanCloudJSLibUITests.m */,
+				60B22B6822262979005BDECE /* Info.plist */,
+			);
+			path = LeanCloudJSLibUITests;
+			sourceTree = "<group>";
+		};
+		60B22B74222629C9005BDECE /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				60B22B8522262ADC005BDECE /* JpushLib_3.0.6 */,
+				60B22B82222629FC005BDECE /* assets */,
+				60B22B7B222629EE005BDECE /* RemoteConfigManager.h */,
+				60B22B76222629EE005BDECE /* RemoteConfigManager.m */,
+				60B22B7C222629EE005BDECE /* VisualViewController.h */,
+				60B22B7D222629EE005BDECE /* VisualViewController.m */,
+				60B22B8C22262B21005BDECE /* AppdelegateExtension.swift */,
+				60B22B8B22262B20005BDECE /* LeanCloudJSLib-Bridging-Header.h */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		60B22B8522262ADC005BDECE /* JpushLib_3.0.6 */ = {
+			isa = PBXGroup;
+			children = (
+				60B22B8622262ADC005BDECE /* jpush-ios-3.0.6.a */,
+				60B22B8722262ADC005BDECE /* JPUSHService.h */,
+				60B22B8822262ADC005BDECE /* jcore-ios-1.1.5.a */,
+			);
+			path = JpushLib_3.0.6;
+			sourceTree = "<group>";
+		};
+		60B22B8E22262C40005BDECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B22BA322262C76005BDECE /* libresolv.tbd */,
+				60B22BA122262C71005BDECE /* UserNotifications.framework */,
+				60B22B9F22262C67005BDECE /* libz.tbd */,
+				60B22B9D22262C62005BDECE /* Security.framework */,
+				60B22B9B22262C5C005BDECE /* UIKit.framework */,
+				60B22B9922262C57005BDECE /* Foundation.framework */,
+				60B22B9722262C52005BDECE /* CoreGraphics.framework */,
+				60B22B9522262C4E005BDECE /* SystemConfiguration.framework */,
+				60B22B9322262C48005BDECE /* CoreTelephony.framework */,
+				60B22B9122262C44005BDECE /* CoreFoundation.framework */,
+				60B22B8F22262C40005BDECE /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B22B3E22262977005BDECE /* LeanCloudJSLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B22B6B22262979005BDECE /* Build configuration list for PBXNativeTarget "LeanCloudJSLib" */;
+			buildPhases = (
+				60B22B3B22262977005BDECE /* Sources */,
+				60B22B3C22262977005BDECE /* Frameworks */,
+				60B22B3D22262977005BDECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloudJSLib;
+			productName = LeanCloudJSLib;
+			productReference = 60B22B3F22262977005BDECE /* LeanCloudJSLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60B22B5622262979005BDECE /* LeanCloudJSLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B22B6E22262979005BDECE /* Build configuration list for PBXNativeTarget "LeanCloudJSLibTests" */;
+			buildPhases = (
+				60B22B5322262979005BDECE /* Sources */,
+				60B22B5422262979005BDECE /* Frameworks */,
+				60B22B5522262979005BDECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B22B5922262979005BDECE /* PBXTargetDependency */,
+			);
+			name = LeanCloudJSLibTests;
+			productName = LeanCloudJSLibTests;
+			productReference = 60B22B5722262979005BDECE /* LeanCloudJSLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60B22B6122262979005BDECE /* LeanCloudJSLibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B22B7122262979005BDECE /* Build configuration list for PBXNativeTarget "LeanCloudJSLibUITests" */;
+			buildPhases = (
+				60B22B5E22262979005BDECE /* Sources */,
+				60B22B5F22262979005BDECE /* Frameworks */,
+				60B22B6022262979005BDECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B22B6422262979005BDECE /* PBXTargetDependency */,
+			);
+			name = LeanCloudJSLibUITests;
+			productName = LeanCloudJSLibUITests;
+			productReference = 60B22B6222262979005BDECE /* LeanCloudJSLibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B22B3722262977005BDECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = xianren;
+				TargetAttributes = {
+					60B22B3E22262977005BDECE = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					60B22B5622262979005BDECE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 60B22B3E22262977005BDECE;
+					};
+					60B22B6122262979005BDECE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 60B22B3E22262977005BDECE;
+					};
+				};
+			};
+			buildConfigurationList = 60B22B3A22262977005BDECE /* Build configuration list for PBXProject "LeanCloudJSLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B22B3622262977005BDECE;
+			productRefGroup = 60B22B4022262977005BDECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B22B3E22262977005BDECE /* LeanCloudJSLib */,
+				60B22B5622262979005BDECE /* LeanCloudJSLibTests */,
+				60B22B6122262979005BDECE /* LeanCloudJSLibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B22B3D22262977005BDECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B22B4F22262979005BDECE /* LaunchScreen.storyboard in Resources */,
+				60B22B83222629FD005BDECE /* assets in Resources */,
+				60B22B4C22262979005BDECE /* Assets.xcassets in Resources */,
+				60B22B4A22262977005BDECE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B22B5522262979005BDECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B22B6022262979005BDECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B22B3B22262977005BDECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B22B4722262977005BDECE /* ViewController.m in Sources */,
+				60B22B7E222629EE005BDECE /* RemoteConfigManager.m in Sources */,
+				60B22B8D22262B21005BDECE /* AppdelegateExtension.swift in Sources */,
+				60B22B5222262979005BDECE /* main.m in Sources */,
+				60B22B4422262977005BDECE /* AppDelegate.m in Sources */,
+				60B22B81222629EE005BDECE /* VisualViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B22B5322262979005BDECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B22B5C22262979005BDECE /* LeanCloudJSLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B22B5E22262979005BDECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B22B6722262979005BDECE /* LeanCloudJSLibUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B22B5922262979005BDECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B22B3E22262977005BDECE /* LeanCloudJSLib */;
+			targetProxy = 60B22B5822262979005BDECE /* PBXContainerItemProxy */;
+		};
+		60B22B6422262979005BDECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B22B3E22262977005BDECE /* LeanCloudJSLib */;
+			targetProxy = 60B22B6322262979005BDECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60B22B4822262977005BDECE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B22B4922262977005BDECE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60B22B4D22262979005BDECE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B22B4E22262979005BDECE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B22B6922262979005BDECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60B22B6A22262979005BDECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B22B6C22262979005BDECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudJSLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeanCloudJSLib/Libs/JpushLib_3.0.6",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudJSLib/Libs/LeanCloudJSLib-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B22B6D22262979005BDECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudJSLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LeanCloudJSLib/Libs/JpushLib_3.0.6",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudJSLib/Libs/LeanCloudJSLib-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60B22B6F22262979005BDECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudJSLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloudJSLib.app/LeanCloudJSLib";
+			};
+			name = Debug;
+		};
+		60B22B7022262979005BDECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudJSLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloudJSLib.app/LeanCloudJSLib";
+			};
+			name = Release;
+		};
+		60B22B7222262979005BDECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudJSLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeanCloudJSLib;
+			};
+			name = Debug;
+		};
+		60B22B7322262979005BDECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeanCloudJSLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfake.LeanCloudJSLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeanCloudJSLib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B22B3A22262977005BDECE /* Build configuration list for PBXProject "LeanCloudJSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B22B6922262979005BDECE /* Debug */,
+				60B22B6A22262979005BDECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B22B6B22262979005BDECE /* Build configuration list for PBXNativeTarget "LeanCloudJSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B22B6C22262979005BDECE /* Debug */,
+				60B22B6D22262979005BDECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B22B6E22262979005BDECE /* Build configuration list for PBXNativeTarget "LeanCloudJSLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B22B6F22262979005BDECE /* Debug */,
+				60B22B7022262979005BDECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B22B7122262979005BDECE /* Build configuration list for PBXNativeTarget "LeanCloudJSLibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B22B7222262979005BDECE /* Debug */,
+				60B22B7322262979005BDECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B22B3722262977005BDECE /* Project object */;
+}

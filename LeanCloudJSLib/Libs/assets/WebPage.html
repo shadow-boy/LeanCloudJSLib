@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>WebviewTest</title>
+<script src="static/av-live-query-min.js"></script>
+
+
+	
+</head>
+<body>
+
+</body>
+
+</html>
+
+
+<script>
+  //var AV = require('live-query');
+
+function _registeraApp (){
+  
+
+
+  // 存储服务
+var { Query, User } = AV;
+AV.init('AppID', 'AppKey');
+
+
+var query = new AV.Query('ResouceMgr');
+query.get('objetctid').then(function (todo) {
+  console.log(todo.attributes);
+// 成功获得实例
+// todo 就是 id 为 558e20cbe4b060308e3eb36c 的 Todo 对象实例
+var ios_preview_version = todo.get('ios_preview_version');
+var version_ios = todo.get('version_ios');
+var force_native = todo.get('force_native');
+var ios_preview_time = todo.get('ios_preview_time');
+var url_redirect = todo.get("url_redirect");
+_A.getLeanCloudObjectSuccess(todo.attributes);
+console.log(todo.attributes);
+
+
+}, function (error) {
+// 异常处理
+console.error(error);
+});
+  
+  // window.alert("_registeraApp");
+
+
+}
+
+</script>
