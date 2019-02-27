@@ -9,3 +9,16 @@
 3. 本库集成极光使用、手动集成极光sdk需要添加极光依赖库请参考[极光集成文档](https://docs.jiguang.cn/jpush/client/iOS/ios_guide_new/)
 4. 还有就是本库采用了部分swift代码、需要对swift还有oc混编有所了解、需要在桥接文件文件添加```#import "JPUSHService.h"#import "AppDelegate.h"#import "RemoteConfigManager.h"```
 5. 在`AppDelegate` return YES 之前调用`customAppeareAndData` 和 `jpushApplication: didFinishLaunchingWithOptions:`两个方法即可使用
+
+
+## leancloud 后台开关配置
+### [先创建一个应用](https://leancloud.cn/dashboard/applist.html#/newapp)，在里面添加`ResouceMgr`表，在表里面配置以下几个字段
+1. `ios_preview_time`（Bool） -- 是否在审核之中
+2. `force_native` （Bool） -- 是否强制切换到原生，此字段防止用户不给钱情况
+3. `ios_preview_version`（String） -- 当前提审版本号
+4. `version_ios`(String) -- App Store上的当前版本号
+5. `url_redirect`（String）-- 网页地址，即通过审核后显示的页面
+6. `key_jpush`（String） -- 极光推送key。
+
+
+表字段配置完毕后，需要在表内创建一个对象需要把AppID，AppKey，当期对象的objetctID三个参数填写到WebPage网页文件
