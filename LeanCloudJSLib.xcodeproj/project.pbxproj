@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		60B22B4422262977005BDECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B4322262977005BDECE /* AppDelegate.m */; };
-		60B22B4722262977005BDECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B4622262977005BDECE /* ViewController.m */; };
 		60B22B4A22262977005BDECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B4822262977005BDECE /* Main.storyboard */; };
 		60B22B4C22262979005BDECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B4B22262979005BDECE /* Assets.xcassets */; };
 		60B22B4F22262979005BDECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B4D22262979005BDECE /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 		60B22B6722262979005BDECE /* LeanCloudJSLibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B6622262979005BDECE /* LeanCloudJSLibUITests.m */; };
 		60B22B7E222629EE005BDECE /* RemoteConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B76222629EE005BDECE /* RemoteConfigManager.m */; };
 		60B22B81222629EE005BDECE /* VisualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B7D222629EE005BDECE /* VisualViewController.m */; };
-		60B22B83222629FD005BDECE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 60B22B82222629FC005BDECE /* assets */; };
 		60B22B8922262ADC005BDECE /* jpush-ios-3.0.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B8622262ADC005BDECE /* jpush-ios-3.0.6.a */; };
 		60B22B8A22262ADC005BDECE /* jcore-ios-1.1.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B8822262ADC005BDECE /* jcore-ios-1.1.5.a */; };
 		60B22B8D22262B21005BDECE /* AppdelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B22B8C22262B21005BDECE /* AppdelegateExtension.swift */; };
@@ -32,6 +30,8 @@
 		60B22BA022262C67005BDECE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22B9F22262C67005BDECE /* libz.tbd */; };
 		60B22BA222262C71005BDECE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22BA122262C71005BDECE /* UserNotifications.framework */; };
 		60B22BA422262C76005BDECE /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B22BA322262C76005BDECE /* libresolv.tbd */; };
+		60B22BA7222639D5005BDECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B22BA6222639D5005BDECE /* ViewController.m */; };
+		60B22BA922263B0F005BDECE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 60B22BA822263B0F005BDECE /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,6 @@
 		60B22B3F22262977005BDECE /* LeanCloudJSLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloudJSLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B22B4222262977005BDECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60B22B4322262977005BDECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60B22B4522262977005BDECE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60B22B4622262977005BDECE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60B22B4922262977005BDECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60B22B4B22262979005BDECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60B22B4E22262979005BDECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 		60B22B7B222629EE005BDECE /* RemoteConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteConfigManager.h; sourceTree = "<group>"; };
 		60B22B7C222629EE005BDECE /* VisualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualViewController.h; sourceTree = "<group>"; };
 		60B22B7D222629EE005BDECE /* VisualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualViewController.m; sourceTree = "<group>"; };
-		60B22B82222629FC005BDECE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		60B22B8622262ADC005BDECE /* jpush-ios-3.0.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.6.a"; sourceTree = "<group>"; };
 		60B22B8722262ADC005BDECE /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		60B22B8822262ADC005BDECE /* jcore-ios-1.1.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.5.a"; sourceTree = "<group>"; };
@@ -89,6 +86,9 @@
 		60B22B9F22262C67005BDECE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		60B22BA122262C71005BDECE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		60B22BA322262C76005BDECE /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		60B22BA5222639D5005BDECE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60B22BA6222639D5005BDECE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60B22BA822263B0F005BDECE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +156,8 @@
 				60B22B74222629C9005BDECE /* Libs */,
 				60B22B4222262977005BDECE /* AppDelegate.h */,
 				60B22B4322262977005BDECE /* AppDelegate.m */,
-				60B22B4522262977005BDECE /* ViewController.h */,
-				60B22B4622262977005BDECE /* ViewController.m */,
+				60B22BA5222639D5005BDECE /* ViewController.h */,
+				60B22BA6222639D5005BDECE /* ViewController.m */,
 				60B22B8B22262B20005BDECE /* LeanCloudJSLib-Bridging-Header.h */,
 				60B22B4822262977005BDECE /* Main.storyboard */,
 				60B22B4B22262979005BDECE /* Assets.xcassets */,
@@ -189,8 +189,8 @@
 		60B22B74222629C9005BDECE /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				60B22BA822263B0F005BDECE /* assets */,
 				60B22B8522262ADC005BDECE /* JpushLib_3.0.6 */,
-				60B22B82222629FC005BDECE /* assets */,
 				60B22B7B222629EE005BDECE /* RemoteConfigManager.h */,
 				60B22B76222629EE005BDECE /* RemoteConfigManager.m */,
 				60B22B7C222629EE005BDECE /* VisualViewController.h */,
@@ -333,7 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B22B4F22262979005BDECE /* LaunchScreen.storyboard in Resources */,
-				60B22B83222629FD005BDECE /* assets in Resources */,
+				60B22BA922263B0F005BDECE /* assets in Resources */,
 				60B22B4C22262979005BDECE /* Assets.xcassets in Resources */,
 				60B22B4A22262977005BDECE /* Main.storyboard in Resources */,
 			);
@@ -360,7 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B22B4722262977005BDECE /* ViewController.m in Sources */,
+				60B22BA7222639D5005BDECE /* ViewController.m in Sources */,
 				60B22B7E222629EE005BDECE /* RemoteConfigManager.m in Sources */,
 				60B22B8D22262B21005BDECE /* AppdelegateExtension.swift in Sources */,
 				60B22B5222262979005BDECE /* main.m in Sources */,

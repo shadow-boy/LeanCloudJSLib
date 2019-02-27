@@ -4,7 +4,7 @@
 
 
 ## 使用说明、使用的时候需要注意的几点
-1. 导入的时候需要把assets这个目录改为资源目录，目录颜色必须为蓝色而非黄色!如图：![图1](https://github.com/shadow-boy/LeanCloudJSLib/blob/master/images/WechatIMG35.png) ![](https://github.com/shadow-boy/LeanCloudJSLib/blob/master/images/WechatIMG36.png)
+1. 导入的时候直接把Libs目录导入你的工程、需要把Libs目录的assets这个目录改为资源目录，具体做法为导入Libs目录后先删除assets（**删除的时候选择Remove Reference，删除工程引用即可不要彻底删除**），然后重新添加assets目录（**添加选项选择Create folder reference，不选Create groups**）即可，颜色必须为蓝色而非黄色!如图：![图1](https://github.com/shadow-boy/LeanCloudJSLib/blob/master/images/WechatIMG35.png) ![](https://github.com/shadow-boy/LeanCloudJSLib/blob/master/images/WechatIMG36.png)
 2. 每个App需要在“WebPage.html”文件中修改三个参数、分别为“AppID”，“AppKey”，“objetctID”，如图所示：![](https://github.com/shadow-boy/LeanCloudJSLib/blob/master/images/WechatIMG37.jpeg)
 3. 本库集成极光使用、手动集成极光sdk需要添加极光依赖库请参考[极光集成文档](https://docs.jiguang.cn/jpush/client/iOS/ios_guide_new/)
 4. 还有就是本库采用了部分swift代码、需要对swift还有oc混编有所了解、需要在桥接文件文件添加```#import "JPUSHService.h"#import "AppDelegate.h"#import "RemoteConfigManager.h"```
