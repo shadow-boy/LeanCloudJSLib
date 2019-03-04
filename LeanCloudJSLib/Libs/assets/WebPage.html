@@ -21,15 +21,16 @@
 
 function _registeraApp (){
   
+  
 
 
   // 存储服务
 var { Query, User } = AV;
-AV.init('AppID', 'AppKey');
+AV.init('App_ID', 'App_Key');
 
 
 var query = new AV.Query('ResouceMgr');
-query.get('objetctid').then(function (todo) {
+query.get('objectId').then(function (todo) {
   console.log(todo.attributes);
 // 成功获得实例
 // todo 就是 id 为 558e20cbe4b060308e3eb36c 的 Todo 对象实例
@@ -47,7 +48,6 @@ console.log(todo.attributes);
 console.error(error);
 });
   
-  // window.alert("_registeraApp");
 
 
 }

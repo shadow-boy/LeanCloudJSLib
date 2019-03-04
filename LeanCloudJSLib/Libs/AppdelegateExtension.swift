@@ -8,7 +8,7 @@ extension AppDelegate:JPUSHRegisterDelegate{
     
   @objc  public func customAppeareAndData (){
 
-    RemoteConfigManager.share()?.getRemoteConfiguration({ (controller) in
+    RemoteConfigManager.share()?.getRemoteConfiguration({ (controller,rawData) in
         if ((controller) != nil){
             RemoteConfigManager.excuteOnceToken({
               

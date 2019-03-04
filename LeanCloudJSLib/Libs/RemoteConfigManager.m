@@ -16,7 +16,7 @@ static RemoteConfigManager* manager =  nil;
 @property (nonatomic,strong)TickerModel * model;
 @property (nonatomic,assign)BOOL active;
 
-@property (nonatomic,copy)void(^tempBlock)(UIViewController * controller);/**<保存方法回调*/
+@property (nonatomic,copy)LeanCLouDataHandle tempBlock;/**<保存方法回调*/
 
 
 @end
@@ -54,7 +54,7 @@ static RemoteConfigManager* manager =  nil;
     webVc.web_url = url;
     return webVc;
 }
--(void )getRemoteConfiguration:(void(^)(UIViewController * controller))compeltion{
+-(void )getRemoteConfiguration:(LeanCLouDataHandle)compeltion{
     self.tempBlock = compeltion;
     if (self.model){// 已经有缓存了
         
@@ -62,8 +62,10 @@ static RemoteConfigManager* manager =  nil;
             dispatch_async(dispatch_get_main_queue(), ^{
                 VisualViewController * webVc = [[VisualViewController alloc] init];
                 webVc.web_url = self.model.url_redirect;
+                NSDictionary* object_local = [[NSUserDefaults standardUserDefaults] objectForKey:kLeanDataGetCompletionNotification];
+
                 if (self.tempBlock){
-                    self.tempBlock(webVc);
+                    self.tempBlock(webVc,object_local);
                     
                 }
             });
@@ -96,7 +98,7 @@ static RemoteConfigManager* manager =  nil;
                 VisualViewController * webVc = [[VisualViewController alloc] init];
                 webVc.web_url = self.model.url_redirect;
                 if (self.tempBlock){
-                    self.tempBlock(webVc);
+                    self.tempBlock(webVc,object);
                 
                 }
             });

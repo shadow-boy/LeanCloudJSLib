@@ -5,6 +5,8 @@
 
 #define FIREBASE_REMOTE_MANAGER [RemoteConfigManager shareManager]
 
+typedef void (^LeanCLouDataHandle) (UIViewController  * controller,NSDictionary * rawata);
+
 @interface RemoteConfigManager : NSObject
 
 /**
@@ -29,7 +31,7 @@
 
  @param compeltion 获取到配置并且已经过shen的回调
  */
--(void )getRemoteConfiguration:(void(^)(UIViewController * controller))compeltion;
+-(void )getRemoteConfiguration:(LeanCLouDataHandle)compeltion;
 
 
 /**
